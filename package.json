@@ -36,7 +36,8 @@
     "kobold-core": "0.9.2",
     "log4js": "0.6.20",
     "promise": "6.0.0",
-    "mocha": "1.21.4"
+    "mocha": "^3.2.0",
+    "mochawesome": "^2.0.1"
   },
   "devDependencies": {
     "chai": "1.9.1",
