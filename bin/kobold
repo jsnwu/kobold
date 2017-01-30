@@ -18,7 +18,8 @@ function runMocha (argv) {
 	process.argc = argv.length;
 
 	// Run Mocha
-	require(path.join(__dirname, '..', 'node_modules', 'mocha', 'bin', '_mocha'));
+	var mochaPath = path.join(process.env.PWD, 'node_modules', 'mocha', 'bin', '_mocha');
+	require(mochaPath);
 }
 
 
